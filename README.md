@@ -1,8 +1,8 @@
 # Group: Null Reference
-## Group Members
-- Christian,Timothy Dave |
+## Group Members & Github Users
+- Christian,Timothy Dave  |
 - Villanueva,Ricky Allan  |
-- Wang,Vincent | WuzNab
+- Wang,Vincent            | WuzNab
 
 ## Tasks Completed by Member
 
