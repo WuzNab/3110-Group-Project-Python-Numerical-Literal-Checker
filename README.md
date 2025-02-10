@@ -1,12 +1,12 @@
-#Group: Null Reference
-##Group Members AND Github
+# Group: Null Reference
+## Group Members
 - Christian,Timothy Dave |
 - Villanueva,Ricky Allan  |
 - Wang,Vincent | WuzNab
 
-##Tasks Completed by Member
+## Tasks Completed by Member
 
-##Code Versions
+## Code Versions
 
-##Features
+## Features
 - Command Line Python Literal Tool
