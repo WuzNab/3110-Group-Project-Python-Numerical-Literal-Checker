@@ -1,30 +1,30 @@
 
-def consoleInput():
-    //TODO
-    
-class FloatingPoints:
-    print()
+def Input():
+    numericLiteral: str = "ob1001_10101_00101"
+    if(decintegerDigit(numericLiteral) or decintegerNonZeroDigit(numericLiteral) or bininteger(numericLiteral) or octinteger(numericLiteral) or hexinteger(numericLiteral) ):
+        print()
 
-class IntegerLiterals:
-    def decintegerDigit(numericLiteral: str) -> bool:
+def decintegerDigit(numericLiteral: str) -> bool:
         
-        return False
+    return False
     
-    def decintegerNonZeroDigit(numericLiteral: str) -> bool:
+def decintegerNonZeroDigit(numericLiteral: str) -> bool:
         
-        return False
+    return False
 
-    def bininteger(numericLiteral: str) -> bool:
+#Vincent
+def bininteger(numericLiteral: str) -> bool:
         
-        return False
+    return False
     
-    def octinteger(numericLiteral: str) -> bool:
+def octinteger(numericLiteral: str) -> bool:
         
-        return False
+    return False
+#Vincent
     
-    def hexinteger(numericLiteral: str) -> bool:
+def hexinteger(numericLiteral: str) -> bool:
         
-        return False
+    return False
     
 
     
