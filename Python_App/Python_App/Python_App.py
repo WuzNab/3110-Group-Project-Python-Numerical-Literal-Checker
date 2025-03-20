@@ -12,6 +12,7 @@ def decintegerNonZeroDigit(numericLiteral: str) -> bool:
         
     return False
 
+#Vincent
 def bininteger(numericLiteral: str) -> bool:
         
     return False
@@ -19,6 +20,7 @@ def bininteger(numericLiteral: str) -> bool:
 def octinteger(numericLiteral: str) -> bool:
         
     return False
+#Vincent
     
 def hexinteger(numericLiteral: str) -> bool:
         
