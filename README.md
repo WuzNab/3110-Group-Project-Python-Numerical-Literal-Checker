@@ -18,3 +18,10 @@
 - [Create-Python-App](https://github.com/WuzNab/3110-Group-Project-Python-Numerical-Literal-Checker/commit/7a9144cfb2cb61358a0b27b41d6c0a6a20279a8e)
 ## Features
 - Command Line Python Literal Tool
+- Validate Python Numeric Literals and Floating Points
+- Read from in.txt file
+- Write to out.txt file the result
+## Usage
+Found within Python_App is the .py application and in.txt and out.txt.
+in.txt is the input file, ensure it has the name "in.txt".
+out.txt is the output file, after the app is run you will find the true false output there.
