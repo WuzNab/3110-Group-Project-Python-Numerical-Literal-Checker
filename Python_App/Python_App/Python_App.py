@@ -4,10 +4,12 @@ def Input():
     if(decintegerDigit(numericLiteral) or decintegerNonZeroDigit(numericLiteral) or bininteger(numericLiteral) or octinteger(numericLiteral) or hexinteger(numericLiteral) ):
         print()
 
+#Ricky
 def decintegerDigit(numericLiteral: str) -> bool:
         
     return False
-    
+
+#Ricky    
 def decintegerNonZeroDigit(numericLiteral: str) -> bool:
         
     return False
