@@ -1,20 +1,6 @@
 
 def consoleInput():
-    numericLiteral = input("Enter Numerical Literal(s):")
-
-    numericLiteralSwitchCase(numericLiteral)
-    
-def numericLiteralSwitchCase(numericLiteral: str):
-    if decintegerDigit(numericLiteral):
-        print()
-    elif decintegerNonZeroDigit(numericLiteral):
-        print()
-    elif bininteger(numericLiteral):
-        print()
-    elif octinteger(numericLiteral):
-        print()
-    elif hexinteger(numericLiteral):
-        print()
+    //TODO
     
 class FloatingPoints:
     print()
