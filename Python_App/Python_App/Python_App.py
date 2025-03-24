@@ -24,8 +24,22 @@ def octinteger(numericLiteral: str) -> bool:
 
 #Timothy(and floating point)    
 def hexinteger(numericLiteral: str) -> bool:
+    if numericLiteral[0:2].lower() != "0x":
+        return False
+    
+    hex_part : numericLiteral[2:]
+
+    if hex_part[-1] == "_":
+        return False
+
+    if '__' in hex_part:
+        return False
         
-    return False
+    cleaned = hex_part.replace('_', '')
+    if not all(c in '0123456789abcdefABCDEF' for c in cleaned):
+        return False
+        
+    return true
     
 
     
