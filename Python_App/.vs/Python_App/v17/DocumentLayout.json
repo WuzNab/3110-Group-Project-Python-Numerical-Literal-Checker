@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Vincent\\Desktop\\3110-Group-Project-Python-Numerical-Literal-Checker\\Python_App\\",
+  "WorkspaceRootPath": "C:\\Users\\Vincent\\Documents\\GitHub\\3110-Group-Project-Python-Numerical-Literal-Checker\\Python_App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F148E68A-0C4E-4361-AEE0-DFE5A816474D}|Python_App\\Python_App.pyproj|C:\\Users\\Vincent\\Desktop\\3110-Group-Project-Python-Numerical-Literal-Checker\\Python_App\\Python_App\\Python_App.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{F148E68A-0C4E-4361-AEE0-DFE5A816474D}|Python_App\\Python_App.pyproj|C:\\Users\\Vincent\\Documents\\GitHub\\3110-Group-Project-Python-Numerical-Literal-Checker\\Python_App\\Python_App\\Python_App.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F148E68A-0C4E-4361-AEE0-DFE5A816474D}|Python_App\\Python_App.pyproj|solutionrelative:Python_App\\Python_App.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Python_App.py",
-              "DocumentMoniker": "C:\\Users\\Vincent\\Desktop\\3110-Group-Project-Python-Numerical-Literal-Checker\\Python_App\\Python_App\\Python_App.py",
+              "DocumentMoniker": "C:\\Users\\Vincent\\Documents\\GitHub\\3110-Group-Project-Python-Numerical-Literal-Checker\\Python_App\\Python_App\\Python_App.py",
               "RelativeDocumentMoniker": "Python_App\\Python_App.py",
-              "ToolTip": "C:\\Users\\Vincent\\Desktop\\3110-Group-Project-Python-Numerical-Literal-Checker\\Python_App\\Python_App\\Python_App.py",
+              "ToolTip": "C:\\Users\\Vincent\\Documents\\GitHub\\3110-Group-Project-Python-Numerical-Literal-Checker\\Python_App\\Python_App\\Python_App.py",
               "RelativeToolTip": "Python_App\\Python_App.py",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-03-20T05:07:41.755Z",
               "EditorCaption": ""
