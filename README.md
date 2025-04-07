@@ -10,6 +10,7 @@
   - added octinteger logic
   - added reading from in.txt file
   - added writing to out.txt file
+  - completed python integer literal NFA
 
 -Timothy
   - added hexinteger logic
