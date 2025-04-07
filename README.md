@@ -17,6 +17,12 @@
   - added floating point literal logic
   - completed hexinteger NFA
   - completed floating point literal NFA
+
+-Ricky
+  - added decinteger logic
+  - added nonzerodigit logic
+  - combined python integer literal and floating point literal NFA
+    
 ## Code Versions
 - [Vincent-Completed-part-+-added-input/output-file-reading](https://github.com/WuzNab/3110-Group-Project-Python-Numerical-Literal-Checker/commit/18442da93a14fcfc1672599d6bfb9a0b7e8d1030)
 - [Initial-Commit](https://github.com/WuzNab/3110-Group-Project-Python-Numerical-Literal-Checker/commit/aa56dccf2a3b3b971993e481ce7e14de5aff47f7)
