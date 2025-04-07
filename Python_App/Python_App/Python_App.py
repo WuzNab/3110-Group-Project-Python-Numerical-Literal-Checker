@@ -84,7 +84,7 @@ def floatingPoint(numericLiteral: str) -> bool:
     if not numericLiteral:
         return False
 
-    if numericLiteral.lower().count('e' > 1) :
+    if numericLiteral.lower().count('e') + numericLiteral.lower().count('E') > 1:
         return False
 
     if 'e' in numericLiteral or 'E' in numericLiteral:
@@ -99,8 +99,14 @@ def floatingPoint(numericLiteral: str) -> bool:
             return False
 
         cleaned_exponent = exponent.replace('_', '')
-        if not cleaned_exponent.lstrip('-').isdigit():
-            return False
+
+        # Check if the exponent is a valid integer, allowing for an optional sign ('+' or '-')
+        # Now, we also check that there are digits after the sign
+        if cleaned_exponent and cleaned_exponent.lstrip('-+').isdigit():
+            return True  # Exponent is valid
+        else:
+            return False  # Exponent is invalid
+
 
     else :
         base = numericLiteral
@@ -110,7 +116,7 @@ def floatingPoint(numericLiteral: str) -> bool:
         if "." not in base:
             return False
 
-        if base[-1] == "_" or base[-1] ==  ".":
+        if base[-1] == "_":
             return False
 
         if "__" in base:
@@ -130,6 +136,7 @@ def Output(numericLiteral: str, result: bool):
         file.write(f"{numericLiteral} | {result}\n")
 
 def Input():
+
     open("out.txt", "w")
 
     with open("in.txt", "r") as file:
@@ -142,7 +149,7 @@ def Input():
             if not numericLiteral:
                 Output(numericLiteral, False)
 
-            if(decintegerDigit(numericLiteral) or decintegerNonZeroDigit(numericLiteral) or bininteger(numericLiteral) or octinteger(numericLiteral) or hexinteger(numericLiteral) ):
+            if(decintegerDigit(numericLiteral) or decintegerNonZeroDigit(numericLiteral) or bininteger(numericLiteral) or octinteger(numericLiteral) or hexinteger(numericLiteral) or floatingPoint(numericLiteral) ):
                 Output(numericLiteral, True)
             else:
                 Output(numericLiteral, False)
@@ -150,6 +157,4 @@ def Input():
 #begin
 Input()
     
-
     
-

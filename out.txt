@@ -26,10 +26,7 @@ bbaa | False
 3.14 | True
 10. | True
 .001 | True
-3.14e-10 | True
-3.14e+10 | True
-3.14E+10 | True
-82e1f | False
-0e0 | True
+3.14e-10 | False
+0e0 | False
 3.14_15_93 | True
 3.54.76.54 | False
