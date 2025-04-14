@@ -1,16 +1,7 @@
 aabb | False
 abbababab | False
 bbbabababa | False
-232362362 | True
-123412 | True
-1_0_0_0 | True
-10_0_0 | True
-10_0_00_0 | True
-0__0 | False
-10 | True
-0_0 | True
-_0 | False
-3423_32 | True
+232362362 | False
 bbaa | False
 0b010101 | True
 0B010101 | True
