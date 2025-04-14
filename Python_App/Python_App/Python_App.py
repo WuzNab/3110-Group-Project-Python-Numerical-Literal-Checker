@@ -1,42 +1,12 @@
 #Ricky
 def decintegerDigit(numericLiteral: str) -> bool:
-
-    #if its not a valid literal, return false directly
-    if not numericLiteral:
-        return False
-    
-    #if it starts with any number (nonzerodigit)
-    if numericLiteral[0] in "123456789":
-        for i in range(1, len(numericLiteral)):
-
-            if numericLiteral[i] == "_":
-                if i == len(numericLiteral) - 1 or  numericLiteral[i + 1] not in "0123456789":
-                    return False
-                
-            elif numericLiteral[i] not in "0123456789":
-                return False
-            
-        return True
-
-    #if it starts with a zero
-    if numericLiteral[0] == "0":
-        for i in range(1, len(numericLiteral)):
-
-            if numericLiteral[i] == "_":
-                if i == len(numericLiteral) - 1 or  numericLiteral[i + 1] not in "0123456789" != "0":
-                    return False
-                
-            elif numericLiteral[i] != "0":
-                return False
-            
-        return True
-    
+        
     return False
 
 #Ricky    
 def decintegerNonZeroDigit(numericLiteral: str) -> bool:
-    
-    return len(numericLiteral) == 1 and numericLiteral in "123456789"
+        
+    return False
 
 #Vincent
 def bininteger(numericLiteral: str) -> bool:
@@ -186,4 +156,5 @@ def Input():
       
 #begin
 Input()
-
+    
+    
